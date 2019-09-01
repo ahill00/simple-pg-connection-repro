@@ -1,0 +1,11 @@
+[flake8]
+exclude =
+    scripts,
+    docker,
+    ansible,
+    ci_tools,
+    .venv,
+    venv,
+    docs
+import-order-style = smarkets
+application-import-names = query
